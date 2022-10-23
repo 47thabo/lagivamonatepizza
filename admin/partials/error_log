@@ -1,0 +1,2 @@
+[30-Jun-2022 22:10:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/lagivamo/public_html/admin/partials/_dbconnect.php on line 7
+[30-Jun-2022 22:10:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/lagivamo/public_html/admin/partials/_dbconnect.php on line 7
