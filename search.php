@@ -14,7 +14,7 @@
     #cont {
         min-height : 515px;
     }
-    </style>
+    </style> 
 </head>
 <body>
     <?php include 'partials/_dbconnect.php';?>
