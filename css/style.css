@@ -106,9 +106,24 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
+    transition: 0.5s;
+}
+.vp-s-card:hover{
+    transform: scale(1.2);
+	background: #ff800a;
+	z-index: 2;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.vp-s-card-body h5{
+    text-decoration: none;
+    color: #000000; 
 }
 .vp-s-card-body p{
     text-align: center;
+    text-decoration: none;
+    color: #872F00;
 }
 
 /*Banner*/
@@ -201,6 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu-card{
     position: relative;
     display: -ms-flexbox;
+    margin: auto;
     display: inline-block;
     outline: none;
     cursor: pointer;
@@ -244,7 +260,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-family: ssp;
 } 
-
+.card-body{
+    padding: 0.6rem !important;
+}
 footer{
     background-color: #1b1b1b;
     color: #fff;

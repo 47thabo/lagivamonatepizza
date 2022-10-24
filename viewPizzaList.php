@@ -121,9 +121,10 @@
                         $pizzaPrice = $row['pizzaPrice'];
                         $pizzaDesc = $row['pizzaDesc'];
                         $b_price = $row['price_branch'];
-                        echo '<div class="vp-card col-12 col-sm-6 col-md-4 col-lg-3 my-1">
+                        echo '<div class="vp-card col-12 col-sm-6 col-md-4 col-lg-3 my-4">
+                                <a href="viewPizza.php?pizzaid=' . $pizzaId . '" class="mx-2">
                                 <div class="vp-s-card  style="width: 200px;">
-                                    <img src="img/pizza-'.$pizzaId. '.jpg" alt="" width="200px" height="150px;" >
+                                    <img src="img/pizza-'.$pizzaId. '.jpg" alt="" width="200px" height="170px;" >
                                     <div class="vp-s-card-body">
                                         <h5>'.$pizzaName.'</h5>';
                                         if ($b_price == "l")
@@ -148,9 +149,10 @@
 
                                                 echo '<p>R'.$pizzaPrice . '</p>';
                                             }
-                                        echo '<a href="viewPizza.php?pizzaid=' . $pizzaId . '" class="mx-2"><button class="btn btn-primary">Quick View</button></a> 
+                                            echo ' 
                                     </div>
                                 </div>
+                                </a>
                               </div>';
                         $count++;
                     }
