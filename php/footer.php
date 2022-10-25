@@ -7,7 +7,7 @@ echo "
                     <div class=\"footer-head\">
                         <h1>Lagiva Monate Pizza</h1>
                     </div>
-                    <div class=\"our-mission-cont col-6\">
+                    <!--div class=\"our-mission-cont col-6\">
                         <div class=\"row mx-2 dongle-b-font\">
                             <h3 dongle-b-font>Our Mission</h3>
                         </div>
@@ -15,7 +15,7 @@ echo "
                             <p> </br>One bite will be our \"Monate kasi vibe\" with a good taste.</p>
                         </div>
                         
-                    </div>
+                    </div-->
 
                     <div class=\"links-cont\">
                         <ul class=\"link-list\">

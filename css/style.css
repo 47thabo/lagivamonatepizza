@@ -16,7 +16,7 @@
     src: url(fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf);
 }
 
-
+a:link { text-decoration: none; }
 
 *{
     text-align: none;
@@ -214,6 +214,8 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
 */
 .menu-card{
+    background-repeat: no-repeat;
+    background-size: cover !important;
     position: relative;
     display: -ms-flexbox;
     margin: auto;
@@ -241,8 +243,8 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0.25rem;
     transition: 0.5s;
 
-    color: #fef4e9;
-	border: solid 1px #da7c0c;
+    color: #fff;
+	border: solid 2px #da7c0c;
 	background: #F9BA21;
 	background: -webkit-gradient(linear, left top, left bottom, from(#f7b825), to(#F9BA21));
 	background: -moz-linear-gradient(top,  #F9BA21 ,  #f47a20);
@@ -260,8 +262,27 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-family: ssp;
 } 
+
+.card-shade{
+    background-color: #0000004f;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20%;
+    transition: 0.5s;
+    text-shadow: rgb(0, 0, 0) 10px 0 10px;
+}
+.card-shade:hover{
+    color: #000000;
+    background-color: #da7d0ca8;
+    text-shadow: #c2a787 30px 30px 30px;
+}
 .card-body{
     padding: 0.6rem !important;
+    display: block;
 }
 footer{
     background-color: #1b1b1b;
@@ -345,7 +366,7 @@ footer{
 {
     .menu-card{
         width: 160px !important;
-        /*height: 260px;*/ 
+        height: 160px !important; 
     } 
 
     .menu-buttons{

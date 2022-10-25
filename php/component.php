@@ -1,6 +1,6 @@
 <?php
 function component($cat, $id, $desc){
-    $element = "
+    /*$element = "
     
     <div class=\"col-lg-3 col-md-4 col-sm-6 col-sm6 col-6 my-4\">
         <a href=\"viewPizzaList.php?catid=$id\">
@@ -13,7 +13,21 @@ function component($cat, $id, $desc){
             </div>     
         </a>       
     </div>
-    ";
+    ";*/
+
+    $element = '
+                <div class="vp-card col-6 col-sm-6 col-md-4 col-lg-3 my-4">
+                    <a href="viewPizzalist.php?catid='.$id.'" class="mx-2">
+                        <div class="menu-card"
+                            style="width: 220px; height:220px; background-image: url(img/card-'.$id.'.jpg);">
+                            <div class="card-shade">
+                                <h4>'.$cat.'</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    
+    ';
     echo $element;
 }
 
