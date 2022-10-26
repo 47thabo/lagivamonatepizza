@@ -36,7 +36,7 @@
                 </li-->
 
                 <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"https://web.whatsapp.com/send?phone=27745103359&text=I would like to order the following:\">Order</a>
+                    <a class=\"nav-link\" href=\"https://wa.me/27745103359/?text=I would like to order the following:\">Order</a>
                 </li>
                 <li class=\"nav-item\">
                     <a class=\"nav-link\" href=\"contact.php\">Contact Us</a>
